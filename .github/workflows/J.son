@@ -1,0 +1,19 @@
+{
+  "name": "fuzzy-funicular",
+  "version": "1.0.0",
+  "description": "Full-Stack Web Terminal",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "build": "echo 'Build frontend bundles here if using React/Vite/Webpack'"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "node-pty": "^1.1.0",
+    "socket.io": "^4.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
